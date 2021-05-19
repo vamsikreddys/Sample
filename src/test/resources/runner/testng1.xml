@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="PureSpectrum">
+
+	<listeners>
+		<listener class-name="org.uncommons.reportng.HTMLReporter" />
+		<listener class-name="org.uncommons.reportng.JUnitXMLReporter" />
+		<listener class-name="com.ps.listeners.CustomListeners" />
+		<listener class-name="com.ps.utilities.ListnerInTestNG"></listener>
+		<listener class-name="com.ps.utilities.RetryListner"></listener>
+		<listener class-name="com.ps.utilities.Listeners"></listener>
+	</listeners>
+
+	<test name="Normal Test">
+		<classes>
+			<class name="com.ps.Test.Surveys" />
+
+		</classes>
+	</test> <!-- Test -->
+
+	<test name="QBP Survey">
+		<classes>
+			<class name="com.ps.Test.QBPTest" />
+		</classes>
+	</test> <!-- Test -->
+	
+	<test name="HT Survey">
+		<classes>
+			<class name="com.ps.Test.HTstaging" />
+		</classes>
+	</test> <!-- Test -->
+	
+	<test name="TC Survey">
+		<classes>
+			<class name="com.ps.Test.TrafficChannels" />
+		</classes>
+	</test> <!-- Test -->
+	
+	<test name="Feasibility">
+		<classes>
+			<class name="com.ps.testcases.Feasibility" />
+		</classes>
+	</test> <!-- Test -->
+
+
+
+</suite> <!-- Suite -->

@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="TC Survey"
+           tests="5"
+           failures="0"
+           errors="0"
+           skipped="0"
+           time="144.686">
+  <properties />
+  
+  
+            <testcase name="tcchild" time="39.996" classname="com.ps.Test.TrafficChannels" />
+                <testcase name="verifyTC" time="13.227" classname="com.ps.Test.TrafficChannels" />
+                <testcase name="TCSearch" time="9.512" classname="com.ps.Test.TrafficChannels" />
+                <testcase name="TCStatus" time="50.496" classname="com.ps.Test.TrafficChannels" />
+                <testcase name="TCCreation" time="31.455" classname="com.ps.Test.TrafficChannels" />
+      
+</testsuite>

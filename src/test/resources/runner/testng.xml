@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="PureSpectrum">
+
+	<listeners>
+		<listener class-name="org.uncommons.reportng.HTMLReporter" />
+		<listener class-name="org.uncommons.reportng.JUnitXMLReporter" />
+		<listener class-name="com.ps.listeners.CustomListeners" />
+		<listener class-name="com.ps.utilities.ListnerInTestNG"></listener>
+		<listener class-name="com.ps.utilities.RetryListner"></listener>
+		<listener class-name="com.ps.utilities.Listeners"></listener>
+	</listeners>
+
+	
+	<test name="Normal Test">
+		<classes>
+			<class name="com.ps.Test.Surveys" />
+		</classes>
+	</test> <!-- Test -->
+
+	<test name="QBP Survey">
+		<classes>
+			<class name="com.ps.Test.QBPTest" />
+		</classes>
+	</test> <!-- Test -->
+	
+	<test name="TC Survey">
+		<classes>
+			<class name="com.ps.Test.TrafficChannels" />
+		</classes>
+	</test> <!-- Test -->
+	
+	<test name="Feasibility">
+		<classes>
+			<class name="com.ps.testcases.Feasibility" />
+		</classes>
+	</test> <!-- Test -->
+	<test name="FeotSurvey">
+		<classes>
+			<class name="com.ps.testcases.TC_FeotSurvey"/>
+		</classes>
+	</test> <!-- Test -->
+	<test name="Recontact">
+		<classes>
+			<class name="com.ps.testcases.TC_RecontactSurvey"/>
+		</classes>
+	</test> <!-- Test -->
+	<test name="SoftLaunch">
+		<classes>
+			<class name="com.ps.testcases.TC_Softlaunch"/>
+		</classes>
+	</test> <!-- Test -->
+
+	<test name="Close Survey Test">
+		<classes>
+			 <class name="com.ps.testcases.TC_CloseSurvey"/>
+		</classes>
+	</test> <!-- Test -->
+
+
+</suite> <!-- Suite -->

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="Feasibility"
+           tests="1"
+           failures="0"
+           errors="0"
+           skipped="0"
+           time="240.972">
+  <properties />
+  
+  
+            <testcase name="feasibility" time="240.972" classname="com.ps.testcases.Feasibility" />
+      
+</testsuite>

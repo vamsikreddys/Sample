@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="FeotSurvey"
+           tests="6"
+           failures="0"
+           errors="0"
+           skipped="1"
+           time="82.901">
+  <properties />
+  
+            <testcase name="verifydashboard2" time="0.0" classname="com.ps.testcases.TC_FeotSurvey">
+          <skipped />
+    </testcase>
+  
+            <testcase name="search" time="12.222" classname="com.ps.testcases.TC_FeotSurvey" />
+                <testcase name="FeotSurvey" time="49.595" classname="com.ps.testcases.TC_FeotSurvey" />
+                <testcase name="verifydashboard" time="3.903" classname="com.ps.testcases.TC_FeotSurvey" />
+                <testcase name="RemoveFeot" time="3.075" classname="com.ps.testcases.TC_FeotSurvey" />
+                <testcase name="verifydashboard2" time="7.046" classname="com.ps.testcases.TC_FeotSurvey" />
+      
+</testsuite>

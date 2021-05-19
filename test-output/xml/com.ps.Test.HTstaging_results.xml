@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="HT Survey"
+           tests="4"
+           failures="0"
+           errors="0"
+           skipped="0"
+           time="189.844">
+  <properties />
+  
+  
+            <testcase name="VerifyafteraddingQuotas" time="43.112" classname="com.ps.Test.HTstaging" />
+                <testcase name="AddingQuotas" time="27.593" classname="com.ps.Test.HTstaging" />
+                <testcase name="HTCreation" time="85.184" classname="com.ps.Test.HTstaging" />
+                <testcase name="VerifyHT1" time="33.955" classname="com.ps.Test.HTstaging" />
+      
+</testsuite>

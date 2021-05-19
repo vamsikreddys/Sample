@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [PureSpectrum]" guice-stage="DEVELOPMENT" verbose="0">
+  <listeners>
+    <listener class-name="org.uncommons.reportng.HTMLReporter"/>
+    <listener class-name="org.uncommons.reportng.JUnitXMLReporter"/>
+    <listener class-name="com.ps.listeners.CustomListeners"/>
+    <listener class-name="com.ps.utilities.ListnerInTestNG"/>
+    <listener class-name="com.ps.utilities.RetryListner"/>
+    <listener class-name="com.ps.utilities.Listeners"/>
+  </listeners>
+  <test name="Normal Test(failed)">
+    <classes>
+      <class name="com.ps.Test.Surveys">
+        <methods>
+          <include name="afterComplete"/>
+          <include name="setUp"/>
+          <include name="Respondentflow"/>
+          <include name="Suppliers"/>
+          <include name="priceoverride"/>
+          <include name="VerifyDashboardAAQ"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- com.ps.Test.Surveys -->
+    </classes>
+  </test> <!-- Normal Test(failed) -->
+  <test name="QBP Survey(failed)">
+    <classes>
+      <class name="com.ps.Test.QBPTest">
+        <methods>
+          <include name="setUp"/>
+          <include name="tearDown"/>
+          <include name="VerifyDashboard"/>
+        </methods>
+      </class> <!-- com.ps.Test.QBPTest -->
+    </classes>
+  </test> <!-- QBP Survey(failed) -->
+  <test name="Feasibility(failed)">
+    <classes>
+      <class name="com.ps.testcases.Feasibility">
+        <methods>
+          <include name="setUp"/>
+          <include name="tearDown"/>
+          <include name="feasibility"/>
+        </methods>
+      </class> <!-- com.ps.testcases.Feasibility -->
+    </classes>
+  </test> <!-- Feasibility(failed) -->
+</suite> <!-- Failed suite [PureSpectrum] -->

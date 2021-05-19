@@ -1,0 +1,323 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="TestSuite" time="253.213" tests="37" errors="0" skipped="19" failures="5">
+  <properties>
+    <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
+    <property name="java.vm.version" value="16.0.1+9-24"/>
+    <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk-16.0.1\bin"/>
+    <property name="maven.multiModuleProjectDirectory" value="C:\Selenium WorkSpace\Data Driven Frame Work\DataDrivenFramework"/>
+    <property name="java.vm.vendor" value="Oracle Corporation"/>
+    <property name="java.vendor.url" value="https://java.oracle.com/"/>
+    <property name="guice.disable.misplaced.annotation.check" value="true"/>
+    <property name="path.separator" value=";"/>
+    <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM"/>
+    <property name="sun.os.patch.level" value="Service Pack 1"/>
+    <property name="user.script" value=""/>
+    <property name="user.country" value="US"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="user.dir" value="C:\Selenium WorkSpace\Data Driven Frame Work\DataDrivenFramework"/>
+    <property name="java.vm.compressedOopsMode" value="Zero based"/>
+    <property name="java.runtime.version" value="16.0.1+9-24"/>
+    <property name="os.arch" value="amd64"/>
+    <property name="java.io.tmpdir" value="C:\Users\VAMSIR~1\AppData\Local\Temp\"/>
+    <property name="line.separator" value="&#10;"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="user.variant" value=""/>
+    <property name="os.name" value="Windows 7"/>
+    <property name="classworlds.conf" value="C:\Users\Vamsi Reddy\.jenkins\tools\hudson.tasks.Maven_MavenInstallation\M2_HOME\bin\..\bin\m2.conf"/>
+    <property name="sun.jnu.encoding" value="Cp1252"/>
+    <property name="java.library.path" value="C:\Program Files\Java\jdk-16.0.1\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:\Users\Vamsi Reddy\.jenkins\tools\hudson.tasks.Maven_MavenInstallation\M2_HOME/bin;C:\Program Files\Java\jdk-16.0.1/bin;C:\Program Files\Java\jdk-16.0.1/bin;C:\Program Files\Common Files\Oracle\Java\javapath;C:\Program Files (x86)\Intel\iCLS Client\;C:\Program Files\Intel\iCLS Client\;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files\nodejs\;C:\Program Files\Git\cmd;C:\Users\Vamsi Reddy\AppData\Roaming\npm;C:\Users\Vamsi Reddy\AppData\Local\Programs\Microsoft VS Code\bin;."/>
+    <property name="maven.conf" value="C:\Users\Vamsi Reddy\.jenkins\tools\hudson.tasks.Maven_MavenInstallation\M2_HOME\bin\../conf"/>
+    <property name="jdk.debug" value="release"/>
+    <property name="java.class.version" value="60.0"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="os.version" value="6.1"/>
+    <property name="library.jansi.path" value="C:\Users\Vamsi Reddy\.jenkins\tools\hudson.tasks.Maven_MavenInstallation\M2_HOME\bin\..\lib\jansi-native"/>
+    <property name="user.home" value="C:\Users\Vamsi Reddy"/>
+    <property name="user.timezone" value="Asia/Calcutta"/>
+    <property name="file.encoding" value="Cp1252"/>
+    <property name="java.specification.version" value="16"/>
+    <property name="user.name" value="Vamsi Reddy"/>
+    <property name="java.class.path" value="C:\Users\Vamsi Reddy\.jenkins\tools\hudson.tasks.Maven_MavenInstallation\M2_HOME\bin\..\boot\plexus-classworlds-2.6.0.jar"/>
+    <property name="java.vm.specification.version" value="16"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="sun.java.command" value="org.codehaus.plexus.classworlds.launcher.Launcher -f pom.xml test"/>
+    <property name="java.home" value="C:\Program Files\Java\jdk-16.0.1"/>
+    <property name="user.language" value="en"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.vm.info" value="mixed mode, sharing"/>
+    <property name="java.version" value="16.0.1"/>
+    <property name="java.vendor" value="Oracle Corporation"/>
+    <property name="maven.home" value="C:\Users\Vamsi Reddy\.jenkins\tools\hudson.tasks.Maven_MavenInstallation\M2_HOME\bin\.."/>
+    <property name="file.separator" value="\"/>
+    <property name="java.version.date" value="2021-04-20"/>
+    <property name="java.vendor.url.bug" value="https://bugreport.java.com/bugreport/"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="sun.cpu.isalist" value="amd64"/>
+  </properties>
+  <testcase name="Defaultsurvey" classname="com.ps.Test.Surveys" time="30.455"/>
+  <testcase name="Search" classname="com.ps.Test.Surveys" time="3.121"/>
+  <testcase name="VerifyDashboard" classname="com.ps.Test.Surveys" time="3.154"/>
+  <testcase name="addingQuotas" classname="com.ps.Test.Surveys" time="11.284"/>
+  <testcase name="VerifyDashboardAAQ" classname="com.ps.Test.Surveys" time="0">
+    <skipped/>
+    <system-out><![CDATA[Success of test cases and its details are : addingQuotas
+Starting test is VerifyDashboardAAQ
+Test Skipped VerifyDashboardAAQ
+]]></system-out>
+  </testcase>
+  <testcase name="VerifyDashboardAAQ" classname="com.ps.Test.Surveys" time="0">
+    <skipped/>
+    <system-out><![CDATA[Skip of test cases and its details are : VerifyDashboardAAQ
+Starting test is VerifyDashboardAAQ
+Test Skipped VerifyDashboardAAQ
+]]></system-out>
+  </testcase>
+  <testcase name="VerifyDashboardAAQ" classname="com.ps.Test.Surveys" time="0">
+    <skipped/>
+    <system-out><![CDATA[Skip of test cases and its details are : VerifyDashboardAAQ
+Starting test is VerifyDashboardAAQ
+Test Skipped VerifyDashboardAAQ
+]]></system-out>
+  </testcase>
+  <testcase name="VerifyDashboardAAQ" classname="com.ps.Test.Surveys" time="0.337">
+    <failure message="expected [0 | 30] but found [0 | 60]" type="java.lang.AssertionError">java.lang.AssertionError: expected [0 | 30] but found [0 | 60]
+	at org.testng.Assert.fail(Assert.java:93)
+	at org.testng.Assert.failNotEquals(Assert.java:512)
+	at org.testng.Assert.assertEqualsImpl(Assert.java:134)
+	at org.testng.Assert.assertEquals(Assert.java:115)
+	at org.testng.Assert.assertEquals(Assert.java:189)
+	at org.testng.Assert.assertEquals(Assert.java:199)
+	at com.ps.Test.Surveys.VerifyDashboardAAQ(Surveys.java:262)
+</failure>
+    <system-out><![CDATA[Skip of test cases and its details are : VerifyDashboardAAQ
+Starting test is VerifyDashboardAAQ
+Test failed VerifyDashboardAAQ
+]]></system-out>
+  </testcase>
+  <testcase name="Suppliers" classname="com.ps.Test.Surveys" time="0">
+    <skipped/>
+    <system-out><![CDATA[Failure of test cases and its details are : VerifyDashboardAAQ
+Starting test is Suppliers
+Test Skipped Suppliers
+]]></system-out>
+  </testcase>
+  <testcase name="Suppliers" classname="com.ps.Test.Surveys" time="0">
+    <skipped/>
+    <system-out><![CDATA[Skip of test cases and its details are : Suppliers
+Starting test is Suppliers
+Test Skipped Suppliers
+]]></system-out>
+  </testcase>
+  <testcase name="Suppliers" classname="com.ps.Test.Surveys" time="0">
+    <skipped/>
+    <system-out><![CDATA[Skip of test cases and its details are : Suppliers
+Starting test is Suppliers
+Test Skipped Suppliers
+]]></system-out>
+  </testcase>
+  <testcase name="Suppliers" classname="com.ps.Test.Surveys" time="4.388"/>
+  <testcase name="Respondentflow" classname="com.ps.Test.Surveys" time="0">
+    <skipped/>
+    <system-out><![CDATA[Success of test cases and its details are : Suppliers
+Test Skipped Respondentflow
+]]></system-out>
+  </testcase>
+  <testcase name="afterComplete" classname="com.ps.Test.Surveys" time="0">
+    <skipped/>
+    <system-out><![CDATA[Skip of test cases and its details are : Respondentflow
+Starting test is afterComplete
+R-Defaultsurvey 05/05/2021 11:01:36
+Test Skipped afterComplete
+]]></system-out>
+  </testcase>
+  <testcase name="afterComplete" classname="com.ps.Test.Surveys" time="0">
+    <skipped/>
+    <system-out><![CDATA[Skip of test cases and its details are : afterComplete
+Starting test is afterComplete
+R-Defaultsurvey 05/05/2021 11:01:36
+Test Skipped afterComplete
+]]></system-out>
+  </testcase>
+  <testcase name="afterComplete" classname="com.ps.Test.Surveys" time="0">
+    <skipped/>
+    <system-out><![CDATA[Skip of test cases and its details are : afterComplete
+Starting test is afterComplete
+R-Defaultsurvey 05/05/2021 11:01:36
+Test Skipped afterComplete
+]]></system-out>
+  </testcase>
+  <testcase name="afterComplete" classname="com.ps.Test.Surveys" time="15.452">
+    <failure message="expected [0 | 30] but found [0 | 60]" type="java.lang.AssertionError">java.lang.AssertionError: expected [0 | 30] but found [0 | 60]
+	at org.testng.Assert.fail(Assert.java:93)
+	at org.testng.Assert.failNotEquals(Assert.java:512)
+	at org.testng.Assert.assertEqualsImpl(Assert.java:134)
+	at org.testng.Assert.assertEquals(Assert.java:115)
+	at org.testng.Assert.assertEquals(Assert.java:189)
+	at org.testng.Assert.assertEquals(Assert.java:199)
+	at com.ps.Test.Surveys.afterComplete(Surveys.java:404)
+</failure>
+    <system-out><![CDATA[Skip of test cases and its details are : afterComplete
+Starting test is afterComplete
+R-Defaultsurvey 05/05/2021 11:01:36
+Test failed afterComplete
+]]></system-out>
+  </testcase>
+  <testcase name="priceoverride" classname="com.ps.Test.Surveys" time="0">
+    <skipped/>
+    <system-out><![CDATA[Failure of test cases and its details are : afterComplete
+Starting test is priceoverride
+Test Skipped priceoverride
+]]></system-out>
+  </testcase>
+  <testcase name="priceoverride" classname="com.ps.Test.Surveys" time="0">
+    <skipped/>
+    <system-out><![CDATA[Skip of test cases and its details are : priceoverride
+Starting test is priceoverride
+Test Skipped priceoverride
+]]></system-out>
+  </testcase>
+  <testcase name="priceoverride" classname="com.ps.Test.Surveys" time="0">
+    <skipped/>
+    <system-out><![CDATA[Skip of test cases and its details are : priceoverride
+Starting test is priceoverride
+Test Skipped priceoverride
+]]></system-out>
+  </testcase>
+  <testcase name="priceoverride" classname="com.ps.Test.Surveys" time="10.199">
+    <failure message="no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;(//footer//div//ul//li)[3]&quot;}&#10;  (Session info: chrome=90.0.4430.93)&#10;For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html&#10;Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;&#10;System info: host: &apos;VAMSIREDDY-PC&apos;, ip: &apos;192.168.225.71&apos;, os.name: &apos;Windows 7&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;6.1&apos;, java.version: &apos;16.0.1&apos;&#10;Driver info: org.openqa.selenium.chrome.ChromeDriver&#10;Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 90.0.4430.93, chrome: {chromedriverVersion: 90.0.4430.24 (4c6d850f087da..., userDataDir: C:\Users\VAMSIR~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:54779}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}&#10;Session ID: 09e963723a293d9bdca76d70b485a705&#10;*** Element info: {Using=xpath, value=(//footer//div//ul//li)[3]}" type="org.openqa.selenium.NoSuchElementException">org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"(//footer//div//ul//li)[3]"}
+  (Session info: chrome=90.0.4430.93)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'VAMSIREDDY-PC', ip: '192.168.225.71', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '16.0.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 90.0.4430.93, chrome: {chromedriverVersion: 90.0.4430.24 (4c6d850f087da..., userDataDir: C:\Users\VAMSIR~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:54779}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 09e963723a293d9bdca76d70b485a705
+*** Element info: {Using=xpath, value=(//footer//div//ul//li)[3]}
+	at jdk.internal.reflect.GeneratedConstructorAccessor13.newInstance(Unknown Source)
+	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:480)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:428)
+	at org.openqa.selenium.By$ByXPath.findElement(By.java:353)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
+	at com.ps.Test.Surveys.priceoverride(Surveys.java:427)
+</failure>
+    <system-out><![CDATA[Skip of test cases and its details are : priceoverride
+Starting test is priceoverride
+Test failed priceoverride
+]]></system-out>
+  </testcase>
+  <testcase name="QBPSurvey" classname="com.ps.Test.QBPTest" time="35.461"/>
+  <testcase name="Search" classname="com.ps.Test.QBPTest" time="3.141"/>
+  <testcase name="VerifyDashboard" classname="com.ps.Test.QBPTest" time="0">
+    <skipped/>
+    <system-out><![CDATA[Success of test cases and its details are : Search
+Starting test is VerifyDashboard
+Test Skipped VerifyDashboard
+]]></system-out>
+  </testcase>
+  <testcase name="VerifyDashboard" classname="com.ps.Test.QBPTest" time="0">
+    <skipped/>
+    <system-out><![CDATA[Skip of test cases and its details are : VerifyDashboard
+Starting test is VerifyDashboard
+Test Skipped VerifyDashboard
+]]></system-out>
+  </testcase>
+  <testcase name="VerifyDashboard" classname="com.ps.Test.QBPTest" time="0">
+    <skipped/>
+    <system-out><![CDATA[Skip of test cases and its details are : VerifyDashboard
+Starting test is VerifyDashboard
+Test Skipped VerifyDashboard
+]]></system-out>
+  </testcase>
+  <testcase name="VerifyDashboard" classname="com.ps.Test.QBPTest" time="0.317">
+    <failure message="expected [0 | 30] but found [0 | 60]" type="java.lang.AssertionError">java.lang.AssertionError: expected [0 | 30] but found [0 | 60]
+	at org.testng.Assert.fail(Assert.java:93)
+	at org.testng.Assert.failNotEquals(Assert.java:512)
+	at org.testng.Assert.assertEqualsImpl(Assert.java:134)
+	at org.testng.Assert.assertEquals(Assert.java:115)
+	at org.testng.Assert.assertEquals(Assert.java:189)
+	at org.testng.Assert.assertEquals(Assert.java:199)
+	at com.ps.Test.QBPTest.VerifyDashboard(QBPTest.java:244)
+</failure>
+    <system-out><![CDATA[Skip of test cases and its details are : VerifyDashboard
+Starting test is VerifyDashboard
+Test failed VerifyDashboard
+]]></system-out>
+  </testcase>
+  <testcase name="VerifyCPIoverride" classname="com.ps.Test.QBPTest" time="21.725"/>
+  <testcase name="TCCreation" classname="com.ps.Test.TrafficChannels" time="31.778"/>
+  <testcase name="tcchild" classname="com.ps.Test.TrafficChannels" time="39.742"/>
+  <testcase name="verifyTC" classname="com.ps.Test.TrafficChannels" time="13.25"/>
+  <testcase name="TCSearch" classname="com.ps.Test.TrafficChannels" time="9.691"/>
+  <testcase name="TCStatus" classname="com.ps.Test.TrafficChannels" time="50.411"/>
+  <testcase name="feasibility" classname="com.ps.testcases.Feasibility" time="0">
+    <skipped/>
+    <system-out><![CDATA[Success of test cases and its details are : TCStatus
+All test finished
+All Test Execution started
+Starting test is feasibility
+Test Skipped feasibility
+]]></system-out>
+  </testcase>
+  <testcase name="feasibility" classname="com.ps.testcases.Feasibility" time="0">
+    <skipped/>
+    <system-out><![CDATA[Skip of test cases and its details are : feasibility
+Starting test is feasibility
+26,315
+$3.44
+26,314
+$3.44
+Test Skipped feasibility
+]]></system-out>
+  </testcase>
+  <testcase name="feasibility" classname="com.ps.testcases.Feasibility" time="0">
+    <skipped/>
+    <system-out><![CDATA[Skip of test cases and its details are : feasibility
+Starting test is feasibility
+Test Skipped feasibility
+]]></system-out>
+  </testcase>
+  <testcase name="feasibility" classname="com.ps.testcases.Feasibility" time="30.563">
+    <failure message="no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;//dynamicheader//div//button[@id=&apos;user-options&apos;]&quot;}&#10;  (Session info: chrome=90.0.4430.93)&#10;For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html&#10;Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;&#10;System info: host: &apos;VAMSIREDDY-PC&apos;, ip: &apos;192.168.225.71&apos;, os.name: &apos;Windows 7&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;6.1&apos;, java.version: &apos;16.0.1&apos;&#10;Driver info: org.openqa.selenium.chrome.ChromeDriver&#10;Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 90.0.4430.93, chrome: {chromedriverVersion: 90.0.4430.24 (4c6d850f087da..., userDataDir: C:\Users\VAMSIR~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:54779}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}&#10;Session ID: 09e963723a293d9bdca76d70b485a705&#10;*** Element info: {Using=xpath, value=//dynamicheader//div//button[@id=&apos;user-options&apos;]}" type="org.openqa.selenium.NoSuchElementException">org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//dynamicheader//div//button[@id='user-options']"}
+  (Session info: chrome=90.0.4430.93)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'VAMSIREDDY-PC', ip: '192.168.225.71', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '16.0.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 90.0.4430.93, chrome: {chromedriverVersion: 90.0.4430.24 (4c6d850f087da..., userDataDir: C:\Users\VAMSIR~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:54779}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 09e963723a293d9bdca76d70b485a705
+*** Element info: {Using=xpath, value=//dynamicheader//div//button[@id='user-options']}
+	at jdk.internal.reflect.GeneratedConstructorAccessor13.newInstance(Unknown Source)
+	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:480)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:428)
+	at org.openqa.selenium.By$ByXPath.findElement(By.java:353)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
+	at com.ps.Test.Login.Buyerlogin1(Login.java:182)
+	at com.ps.testcases.Feasibility.feasibility(Feasibility.java:45)
+</failure>
+    <system-out><![CDATA[Skip of test cases and its details are : feasibility
+Starting test is feasibility
+Test failed feasibility
+]]></system-out>
+  </testcase>
+</testsuite>

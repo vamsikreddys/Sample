@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="Normal Test"
+           tests="12"
+           failures="1"
+           errors="0"
+           skipped="3"
+           time="134.547">
+  <properties />
+            <testcase name="priceoverride" time="14.309" classname="com.ps.Test.Surveys">
+                <failure type="org.openqa.selenium.NoSuchElementException"
+                  message="no such element: Unable to locate element: {&quot;method&quot;:&quot;css selector&quot;,&quot;selector&quot;:&quot;html&gt;body&gt;div&gt;div&gt;section&gt;div&gt;div&gt;form&gt;div&gt;div:nth-of-type(5)&gt;div&gt;table&gt;tbody&gt;tr:nth-of-type(1)&gt;td:nth-of-type(2)&quot;}
+  (Session info: chrome=90.0.4430.93)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;
+System info: host: &apos;VAMSIREDDY-PC&apos;, ip: &apos;192.168.225.71&apos;, os.name: &apos;Windows 7&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;6.1&apos;, java.version: &apos;1.8.0_291&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 90.0.4430.93, chrome: {chromedriverVersion: 90.0.4430.24 (4c6d850f087da..., userDataDir: C:\Users\VAMSIR~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:57716}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: f0ede851e7e482d95f5e3f5222aa1edb
+*** Element info: {Using=css selector, value=html&gt;body&gt;div&gt;div&gt;section&gt;div&gt;div&gt;form&gt;div&gt;div:nth-of-type(5)&gt;div&gt;table&gt;tbody&gt;tr:nth-of-type(1)&gt;td:nth-of-type(2)}"
+              >
+<![CDATA[org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"css selector","selector":"html>body>div>div>section>div>div>form>div>div:nth-of-type(5)>div>table>tbody>tr:nth-of-type(1)>td:nth-of-type(2)"}
+  (Session info: chrome=90.0.4430.93)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'VAMSIREDDY-PC', ip: '192.168.225.71', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_291'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 90.0.4430.93, chrome: {chromedriverVersion: 90.0.4430.24 (4c6d850f087da..., userDataDir: C:\Users\VAMSIR~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:57716}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: f0ede851e7e482d95f5e3f5222aa1edb
+*** Element info: {Using=css selector, value=html>body>div>div>section>div>div>form>div>div:nth-of-type(5)>div>table>tbody>tr:nth-of-type(1)>td:nth-of-type(2)}
+  sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+  sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)
+  sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
+  java.lang.reflect.Constructor.newInstance(Unknown Source)
+  org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+  org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+  org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+  org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+  org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+  org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+  org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
+  org.openqa.selenium.remote.RemoteWebDriver.findElementByCssSelector(RemoteWebDriver.java:420)
+  org.openqa.selenium.By$ByCssSelector.findElement(By.java:431)
+  org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
+  com.ps.Test.Surveys.priceoverride(Surveys.java:422)
+  sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+  sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+  sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+  java.lang.reflect.Method.invoke(Unknown Source)
+  org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:108)
+  org.testng.internal.Invoker.invokeMethod(Invoker.java:661)
+  org.testng.internal.Invoker.retryFailed(Invoker.java:1014)
+  org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1215)
+  org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:126)
+  org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+  org.testng.TestRunner.privateRun(TestRunner.java:744)
+  org.testng.TestRunner.run(TestRunner.java:602)
+  org.testng.SuiteRunner.runTest(SuiteRunner.java:380)
+  org.testng.SuiteRunner.runSequentially(SuiteRunner.java:375)
+  org.testng.SuiteRunner.privateRun(SuiteRunner.java:340)
+  org.testng.SuiteRunner.run(SuiteRunner.java:289)
+  org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+  org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+  org.testng.TestNG.runSuitesSequentially(TestNG.java:1301)
+  org.testng.TestNG.runSuitesLocally(TestNG.java:1226)
+  org.testng.TestNG.runSuites(TestNG.java:1144)
+  org.testng.TestNG.run(TestNG.java:1115)
+  org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+  org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+  org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+      </failure>
+
+          </testcase>
+  
+            <testcase name="priceoverride" time="0.0" classname="com.ps.Test.Surveys">
+          <skipped />
+    </testcase>
+            <testcase name="priceoverride" time="0.0" classname="com.ps.Test.Surveys">
+          <skipped />
+    </testcase>
+            <testcase name="priceoverride" time="0.0" classname="com.ps.Test.Surveys">
+          <skipped />
+    </testcase>
+  
+            <testcase name="VerifyDashboard" time="3.108" classname="com.ps.Test.Surveys" />
+                <testcase name="VerifyDashboardAAQ" time="1.200" classname="com.ps.Test.Surveys" />
+                <testcase name="Defaultsurvey" time="29.406" classname="com.ps.Test.Surveys" />
+                <testcase name="Search" time="3.045" classname="com.ps.Test.Surveys" />
+                <testcase name="afterComplete" time="11.391" classname="com.ps.Test.Surveys" />
+                <testcase name="addingQuotas" time="10.724" classname="com.ps.Test.Surveys" />
+                <testcase name="Suppliers" time="4.365" classname="com.ps.Test.Surveys" />
+                <testcase name="Respondentflow" time="21.812" classname="com.ps.Test.Surveys" />
+      
+</testsuite>

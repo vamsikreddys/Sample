@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [PureSpectrum]">
+  <listeners>
+    <listener class-name="org.uncommons.reportng.HTMLReporter"/>
+    <listener class-name="org.uncommons.reportng.JUnitXMLReporter"/>
+    <listener class-name="com.ps.listeners.CustomListeners"/>
+    <listener class-name="com.ps.utilities.ListnerInTestNG"/>
+    <listener class-name="com.ps.utilities.RetryListner"/>
+    <listener class-name="com.ps.utilities.Listeners"/>
+  </listeners>
+  <test name="Normal Test(failed)">
+    <classes>
+      <class name="com.ps.Test.Surveys">
+        <methods>
+          <include name="setUp"/>
+          <include name="priceoverride"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- com.ps.Test.Surveys -->
+    </classes>
+  </test> <!-- Normal Test(failed) -->
+  <test name="QBP Survey(failed)">
+    <classes>
+      <class name="com.ps.Test.QBPTest">
+        <methods>
+          <include name="setUp"/>
+          <include name="QBPSurvey"/>
+          <include name="tearDown"/>
+          <include name="VerifyDashboard"/>
+          <include name="Search"/>
+          <include name="VerifyCPIoverride"/>
+        </methods>
+      </class> <!-- com.ps.Test.QBPTest -->
+    </classes>
+  </test> <!-- QBP Survey(failed) -->
+  <test name="FeotSurvey(failed)">
+    <classes>
+      <class name="com.ps.testcases.TC_FeotSurvey">
+        <methods>
+          <include name="setUp"/>
+          <include name="tearDown"/>
+          <include name="verifydashboard2"/>
+        </methods>
+      </class> <!-- com.ps.testcases.TC_FeotSurvey -->
+    </classes>
+  </test> <!-- FeotSurvey(failed) -->
+  <test name="Recontact(failed)">
+    <classes>
+      <class name="com.ps.testcases.TC_RecontactSurvey">
+        <methods>
+          <include name="recontactCreation"/>
+          <include name="setUp"/>
+          <include name="closerecontact"/>
+          <include name="Vaidate"/>
+          <include name="tearDown"/>
+          <include name="verify"/>
+        </methods>
+      </class> <!-- com.ps.testcases.TC_RecontactSurvey -->
+    </classes>
+  </test> <!-- Recontact(failed) -->
+  <test name="SoftLaunch(failed)">
+    <classes>
+      <class name="com.ps.testcases.TC_Softlaunch">
+        <methods>
+          <include name="setUp"/>
+          <include name="tearDown"/>
+          <include name="Softlaunch1"/>
+        </methods>
+      </class> <!-- com.ps.testcases.TC_Softlaunch -->
+    </classes>
+  </test> <!-- SoftLaunch(failed) -->
+  <test name="Close Survey Test(failed)">
+    <classes>
+      <class name="com.ps.testcases.TC_CloseSurvey">
+        <methods>
+          <include name="close"/>
+          <include name="setUp"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- com.ps.testcases.TC_CloseSurvey -->
+    </classes>
+  </test> <!-- Close Survey Test(failed) -->
+</suite> <!-- Failed suite [PureSpectrum] -->
